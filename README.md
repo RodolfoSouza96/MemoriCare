@@ -25,3 +25,10 @@ O nome **Memori Care** nasce da necessidade de transformar dados estáticos em c
 - [ ] **Prescrição Digital:** Emissão de receitas e pedidos de exames.
 - [ ] **Dashboard Clínico:** Visualização rápida do histórico e alergias do paciente.
 - [ ] **Módulo de Telemedicina:** Consultas remotas integradas ao prontuário.
+
+
+* **Linguagem:** C#
+* **Framework:** .NET 10 / ASP.NET Core Web API
+* **Banco de Dados:** Microsoft SQL Server
+* **ORM:** Entity Framework Core
+* **Documentação:** Swagger
