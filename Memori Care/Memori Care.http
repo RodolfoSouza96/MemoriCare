@@ -1,0 +1,6 @@
+@Memori_Care_HostAddress = http://localhost:5151
+
+GET {{Memori_Care_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

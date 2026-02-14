@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\AulasC#\\Memori Care\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19126F34-68B9-49F4-A390-CE0AC4B71DB1}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19126F34-68B9-49F4-A390-CE0AC4B71DB1}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19126F34-68B9-49F4-A390-CE0AC4B71DB1}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\interfaces\\ipacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19126F34-68B9-49F4-A390-CE0AC4B71DB1}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\interfaces\\ipacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPacienteService.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Interfaces\\IPacienteService.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Interfaces\\IPacienteService.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Interfaces\\IPacienteService.cs",
+              "RelativeToolTip": "Memori Care\\Interfaces\\IPacienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T22:15:12.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacienteService.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Services\\PacienteService.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Services\\PacienteService.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Services\\PacienteService.cs",
+              "RelativeToolTip": "Memori Care\\Services\\PacienteService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T22:12:51.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

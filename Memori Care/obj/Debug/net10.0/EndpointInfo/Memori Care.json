@@ -1,0 +1,159 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Memori Care",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/v1/Pacientes": {
+      "post": {
+        "tags": [
+          "Pacientes"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PacienteCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PacienteCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PacienteCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Pacientes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/Pacientes/{id}": {
+      "get": {
+        "tags": [
+          "Pacientes"
+        ],
+        "operationId": "ObterPaciente",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "PacienteCreateDto": {
+        "required": [
+          "cns",
+          "cpf",
+          "dataNascimento",
+          "idade",
+          "nome",
+          "raca",
+          "sexo"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "maxLength": 255,
+            "minLength": 2,
+            "type": "string"
+          },
+          "cpf": {
+            "maxLength": 11,
+            "minLength": 0,
+            "type": "string"
+          },
+          "dataNascimento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "idade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sexo": {
+            "maxLength": 1,
+            "minLength": 0,
+            "type": "string"
+          },
+          "raca": {
+            "$ref": "#/components/schemas/RacaCor"
+          },
+          "cns": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "tipoSanguineo": {
+            "$ref": "#/components/schemas/TipoSanguineo"
+          },
+          "obito": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RacaCor": {
+        "enum": [
+          "Branca",
+          "Preta",
+          "Parda",
+          "Amarela",
+          "Indigena",
+          "NaoInformado"
+        ],
+        "type": "string"
+      },
+      "TipoSanguineo": {
+        "enum": [
+          "APositivo",
+          "ANegativo",
+          "BPositivo",
+          "BNegativo",
+          "ABPositivo",
+          "ABNegativo",
+          "OPositivo",
+          "ONegativo",
+          "NãoInformou"
+        ],
+        "type": "string"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Pacientes"
+    }
+  ]
+}

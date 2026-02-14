@@ -1,0 +1,45 @@
+[
+  {
+    "ContainingType": "Memori_Care.Controllers.PacientesController",
+    "Method": "Criar",
+    "RelativePath": "api/v1/Pacientes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pacienteDto",
+        "Type": "Memori_Care.DTOs.PacienteCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.PacientesController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Pacientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.PacientesController",
+    "Method": "GetPorId",
+    "RelativePath": "api/v1/Pacientes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ObterPaciente"
+  }
+]
