@@ -90,8 +90,7 @@
               "RelativeToolTip": "Memori Care\\Models\\Pessoa.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T14:13:10.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T14:13:10.667Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "Memori Care\\DTOs\\PacienteCreateDTO.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:18:06.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T12:18:06.673Z"
             },
             {
               "$type": "Document",
@@ -128,8 +126,7 @@
               "RelativeToolTip": "Memori Care\\DTOs\\PacienteUpdateDTO.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:18:28.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T12:18:28.301Z"
             },
             {
               "$type": "Document",
@@ -141,8 +138,7 @@
               "RelativeToolTip": "Memori Care\\DTOs\\ProfissionalCreateDTO.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:18:07.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T12:18:07.817Z"
             },
             {
               "$type": "Document",
@@ -154,8 +150,7 @@
               "RelativeToolTip": "Memori Care\\DTOs\\ProfissionalUpdateDTO.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAowB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:25:03.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T12:25:03.274Z"
             },
             {
               "$type": "Document",
@@ -167,8 +162,7 @@
               "RelativeToolTip": "Memori Care\\Services\\PacienteService.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAnwDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:04:20.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T12:04:20.005Z"
             },
             {
               "$type": "Document",
@@ -178,7 +172,7 @@
               "RelativeDocumentMoniker": "Memori Care\\DTOs\\PacienteReadDTO.cs",
               "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\PacienteReadDTO.cs",
               "RelativeToolTip": "Memori Care\\DTOs\\PacienteReadDTO.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA6wBUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-15T12:19:30.159Z",
               "EditorCaption": ""
@@ -193,8 +187,7 @@
               "RelativeToolTip": "Memori Care\\Models\\Paciente.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAowBYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T14:13:15.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T14:13:15.598Z"
             },
             {
               "$type": "Document",
@@ -206,8 +199,7 @@
               "RelativeToolTip": "Memori Care\\Utils\\DateConverterbrasileiro.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAYwCMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T14:39:44.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T14:39:44.488Z"
             },
             {
               "$type": "Document",
@@ -219,8 +211,7 @@
               "RelativeToolTip": "Memori Care\\Models\\Atendimento.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T14:07:10.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T14:07:10.617Z"
             },
             {
               "$type": "Document",
@@ -232,8 +223,7 @@
               "RelativeToolTip": "Memori Care\\Models\\Profissional.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T14:13:16.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T14:13:16.667Z"
             },
             {
               "$type": "Document",
