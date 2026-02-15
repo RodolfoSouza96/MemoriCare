@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Memori Care")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f15e756416008675cfb90b80af5815f0b8d82d0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Memori Care")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Memori Care")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

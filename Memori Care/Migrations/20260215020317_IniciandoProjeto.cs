@@ -6,19 +6,17 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Memori_Care.Migrations
 {
     /// <inheritdoc />
-    public partial class CriacaoInicial : Migration
+    public partial class IniciandoProjeto : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateSequence(
-                name: "PessoaSequence");
-
             migrationBuilder.CreateTable(
                 name: "Pacientes",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false, defaultValueSql: "NEXT VALUE FOR [PessoaSequence]"),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     CPF = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
                     DataNascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -35,26 +33,11 @@ namespace Memori_Care.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Pessoas",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false, defaultValueSql: "NEXT VALUE FOR [PessoaSequence]"),
-                    Nome = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    CPF = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
-                    DataNascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Sexo = table.Column<string>(type: "nvarchar(1)", maxLength: 1, nullable: false),
-                    Raca = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Pessoas", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Profissionais",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false, defaultValueSql: "NEXT VALUE FOR [PessoaSequence]"),
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     CPF = table.Column<string>(type: "nvarchar(11)", maxLength: 11, nullable: false),
                     DataNascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -79,13 +62,7 @@ namespace Memori_Care.Migrations
                 name: "Pacientes");
 
             migrationBuilder.DropTable(
-                name: "Pessoas");
-
-            migrationBuilder.DropTable(
                 name: "Profissionais");
-
-            migrationBuilder.DropSequence(
-                name: "PessoaSequence");
         }
     }
 }

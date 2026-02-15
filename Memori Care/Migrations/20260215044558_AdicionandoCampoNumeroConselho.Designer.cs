@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Memori_Care.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260214214757_CriacaoInicial")]
-    partial class CriacaoInicial
+    [Migration("20260215044558_AdicionandoCampoNumeroConselho")]
+    partial class AdicionandoCampoNumeroConselho
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,16 +25,13 @@ namespace Memori_Care.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.HasSequence("PessoaSequence");
-
             modelBuilder.Entity("Memori_Care.Models.Pessoa", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValueSql("NEXT VALUE FOR [PessoaSequence]");
+                        .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseSequence(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("CPF")
                         .IsRequired()
@@ -59,7 +56,7 @@ namespace Memori_Care.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pessoas", (string)null);
+                    b.ToTable((string)null);
 
                     b.UseTpcMappingStrategy();
                 });
@@ -82,7 +79,7 @@ namespace Memori_Care.Migrations
                     b.Property<int>("TipoSanguineo")
                         .HasColumnType("int");
 
-                    b.ToTable("Pacientes", (string)null);
+                    b.ToTable("Pacientes");
                 });
 
             modelBuilder.Entity("Memori_Care.Models.Profissional", b =>
@@ -103,12 +100,17 @@ namespace Memori_Care.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
+                    b.Property<string>("NumeroConselho")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
                     b.Property<string>("RegistroProfissional")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.ToTable("Profissionais", (string)null);
+                    b.ToTable("Profissionais");
                 });
 #pragma warning restore 612, 618
         }

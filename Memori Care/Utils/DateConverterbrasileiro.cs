@@ -2,17 +2,35 @@
 using System.Text.Json.Serialization;
 using System.Globalization;
 
-public class DateConverterBrasileiro : JsonConverter<DateTime>
+public class DateConverterBrasileiro : JsonConverter<DateTime?>
 {
     private readonly string _formato = "dd/MM/yyyy";
 
-    public override DateTime Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+    public override DateTime? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
     {
-        return DateTime.ParseExact(reader.GetString()!, _formato, CultureInfo.InvariantCulture);
+        // Se o valor no JSON for nulo ou uma string vazia, retorna null sem erro
+        string? dataTexto = reader.GetString();
+
+        if (string.IsNullOrWhiteSpace(dataTexto))
+        {
+            return null;
+        }
+
+        // Se houver texto, tenta converter no formato brasileiro
+        return DateTime.ParseExact(dataTexto, _formato, CultureInfo.InvariantCulture);
     }
 
-    public override void Write(Utf8JsonWriter writer, DateTime value, JsonSerializerOptions options)
+    public override void Write(Utf8JsonWriter writer, DateTime? value, JsonSerializerOptions options)
     {
-        writer.WriteStringValue(value.ToString(_formato));
+        // Se o valor for nulo no C#, escreve "null" no JSON
+        if (value == null)
+        {
+            writer.WriteNullValue();
+        }
+        else
+        {
+            // Se houver data, escreve no formato dd/MM/yyyy
+            writer.WriteStringValue(value.Value.ToString(_formato));
+        }
     }
 }

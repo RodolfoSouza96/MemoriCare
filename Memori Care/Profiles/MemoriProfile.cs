@@ -9,8 +9,12 @@ public class MemoriProfile : Profile
 
     public MemoriProfile()
     {
-        CreateMap<Paciente, PacienteCreateDto>().ReverseMap();
+        CreateMap<Paciente, PacienteCreateDTO>().ReverseMap();
         CreateMap<Paciente, PacienteReadDTO>().ReverseMap();
+        CreateMap<Paciente, PacienteUpdateDTO>().ReverseMap();
+        CreateMap<Profissional, ProfissionalCreateDto>().ReverseMap();
+        CreateMap<Profissional, ProfissionalReadDto>().ReverseMap();
+        CreateMap<Profissional, ProfissionalUpdateDTO>().ReverseMap();
     }
 
 

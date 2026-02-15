@@ -26,6 +26,7 @@ builder.Services.AddDbContext<AppDbContext>(opts =>
 
 // 3. Services
 builder.Services.AddScoped<IPacienteService, PacienteService>();
+builder.Services.AddScoped<IProfissionalService, ProfissionalService>();
 
 // 4. Profile
 builder.Services.AddAutoMapper(typeof(MemoriProfile));

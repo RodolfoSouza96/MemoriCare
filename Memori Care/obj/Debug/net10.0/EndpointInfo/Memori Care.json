@@ -14,17 +14,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PacienteCreateDto"
+                "$ref": "#/components/schemas/PacienteCreateDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PacienteCreateDto"
+                "$ref": "#/components/schemas/PacienteCreateDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PacienteCreateDto"
+                "$ref": "#/components/schemas/PacienteCreateDTO"
               }
             }
           }
@@ -69,11 +69,214 @@
           }
         }
       }
+    },
+    "/api/v1/Pacientes/{id}/ativar": {
+      "put": {
+        "tags": [
+          "Pacientes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "dataSugerida",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/Pacientes/{id}/remover-obito": {
+      "put": {
+        "tags": [
+          "Pacientes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/Profissionais": {
+      "post": {
+        "tags": [
+          "Profissionais"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfissionalCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfissionalCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfissionalCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Profissionais"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/Profissionais/{id}": {
+      "get": {
+        "tags": [
+          "Profissionais"
+        ],
+        "operationId": "ObterProfissional",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Profissionais"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfissionalUpdateDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfissionalUpdateDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfissionalUpdateDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Profissionais"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/Profissionais/{id}/ativar": {
+      "put": {
+        "tags": [
+          "Profissionais"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
-      "PacienteCreateDto": {
+      "PacienteCreateDTO": {
         "required": [
           "cns",
           "cpf",
@@ -120,6 +323,131 @@
           },
           "obito": {
             "type": "boolean"
+          },
+          "dataObito": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProfissionalCreateDto": {
+        "required": [
+          "ativo",
+          "especialidade",
+          "numeroConselho",
+          "registroProfissional"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "maxLength": 255,
+            "minLength": 2,
+            "type": "string",
+            "nullable": true
+          },
+          "cpf": {
+            "maxLength": 11,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "dataNascimento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "sexo": {
+            "maxLength": 1,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "raca": {
+            "$ref": "#/components/schemas/RacaCor"
+          },
+          "registroProfissional": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "numeroConselho": {
+            "maxLength": 20,
+            "minLength": 3,
+            "type": "string"
+          },
+          "especialidade": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "dataAdmissao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ativo": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProfissionalUpdateDTO": {
+        "required": [
+          "ativo",
+          "especialidade",
+          "numeroConselho",
+          "registroProfissional"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "maxLength": 255,
+            "minLength": 2,
+            "type": "string",
+            "nullable": true
+          },
+          "cpf": {
+            "maxLength": 11,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "dataNascimento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "sexo": {
+            "maxLength": 1,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "raca": {
+            "$ref": "#/components/schemas/RacaCor"
+          },
+          "registroProfissional": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "numeroConselho": {
+            "maxLength": 20,
+            "minLength": 3,
+            "type": "string"
+          },
+          "especialidade": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "dataAdmissao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "ativo": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
@@ -154,6 +482,9 @@
   "tags": [
     {
       "name": "Pacientes"
+    },
+    {
+      "name": "Profissionais"
     }
   ]
 }

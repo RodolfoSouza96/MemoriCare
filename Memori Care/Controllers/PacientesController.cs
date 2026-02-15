@@ -19,7 +19,7 @@ public class PacientesController : ControllerBase
 
 
     [HttpPost()]
-    public async Task<IActionResult> Criar([FromBody] PacienteCreateDto pacienteDto)
+    public async Task<IActionResult> Criar([FromBody] PacienteCreateDTO pacienteDto)
     {
         var criar = await _service.Criar(pacienteDto);
 
@@ -51,5 +51,31 @@ public class PacientesController : ControllerBase
         var pacientes = await _service.GetTodos();
 
         return Ok(pacientes);
+    }
+
+    [HttpPut("{id:int}/ativar")]
+    public async Task<IActionResult> AtivarObito(int id, DateTime dataSugerida) {
+
+        var ativou = await _service.AtivarObito(id, dataSugerida);
+
+        if (ativou)
+        {
+            return NoContent();
+        }
+        return NotFound("Não foi possivel localizar o paciente para colocar o óbito!");
+
+    }
+
+    [HttpPut("{id:int}/remover-obito")]
+    public async Task<IActionResult> RemoverObito(int id)
+    {
+        var inativar = await _service.RemoverObito(id);
+
+        if (inativar)
+        {
+            return NoContent();
+        }
+
+        return NotFound("Não foi possivel localizar o paciente para remover o óbito!");
     }
 }

@@ -5,7 +5,7 @@
 namespace Memori_Care.Migrations
 {
     /// <inheritdoc />
-    public partial class SexoString : Migration
+    public partial class IdIdentity : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -15,8 +15,13 @@ namespace Memori_Care.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Pessoa>().UseTpcMappingStrategy();
-            modelBuilder.Entity<Paciente>().ToTable("Pacientes");
-            modelBuilder.Entity<Profissional>().ToTable("Profissionais");
+            //modelBuilder.Entity<Paciente>().ToTable("Pacientes");
+            //modelBuilder.Entity<Profissional>().ToTable("Profissionais");
+
+            modelBuilder.Entity<Paciente>().Property(p => p.Id).UseIdentityColumn();
+            modelBuilder.Entity<Profissional>().Property(p => p.Id).UseIdentityColumn();
+
+
         }
 
     }

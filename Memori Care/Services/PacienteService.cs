@@ -20,18 +20,55 @@ public class PacienteService : IPacienteService
         _mapper = mapper;
     }
 
-    public async Task<PacienteReadDTO> Criar(PacienteCreateDto pacienteDto)
-    { 
-        if(pacienteDto is null)
+    public async Task<bool> AtivarObito(int id, DateTime dataDigitada)
+    {
+        var buscaPaciente = await _context.Pacientes.FindAsync(id);
+
+        if (buscaPaciente == null) {
+
+            throw new Exception("Paciente não encontrado!");
+        }
+
+        buscaPaciente.Obito = true;
+        buscaPaciente.DataObito = dataDigitada;
+        await _context.SaveChangesAsync();
+
+        return true;
+    }
+
+    public async Task<PacienteReadDTO> Criar(PacienteCreateDTO pacienteDto)
+    {
+        string anoCurto = DateTime.Now.ToString("yy");
+
+        if (pacienteDto is null)
         {
             throw new Exception("Dados inválidos!");
         }
 
+        if (pacienteDto.Obito && pacienteDto.DataObito == null)
+        {
+            throw new Exception("Se o óbito for confirmado, a data do óbito deve ser informada.");
+        }
+
         var paciente = _mapper.Map<Paciente>(pacienteDto);
+
+        string prefixo = anoCurto + "-";
+
+        var contagemAno = await _context.Pacientes
+            .CountAsync(p => p.NumeroProntuario != null && p.NumeroProntuario.StartsWith(prefixo));
+
+        int proximoNumero = contagemAno + 1;
+
+        paciente.NumeroProntuario = $"{prefixo}{proximoNumero:D4}";
 
         _context.Pacientes.Add(paciente);
 
-        var novoPaciente = await _context.SaveChangesAsync();
+        var resultado = await _context.SaveChangesAsync();
+
+        if (resultado <= 0)
+        {
+            throw new Exception("Não foi possível salvar o paciente no banco de dados.");
+        }
 
         var novoPacienteDto = _mapper.Map<PacienteReadDTO>(paciente);
         return novoPacienteDto;
@@ -59,5 +96,21 @@ public class PacienteService : IPacienteService
           var pacientes = await _context.Pacientes.ToListAsync() ?? new();
           return _mapper.Map<IEnumerable<PacienteReadDTO>>(pacientes);
           
+    }
+
+    public async Task<bool> RemoverObito(int id)
+    {
+        var buscaPaciente = await _context.Pacientes.FindAsync(id);
+        
+        if (buscaPaciente is null)
+        {
+            throw new Exception("Paciente não encontrado!");
+        }
+
+        buscaPaciente.Obito = false;
+        await _context.SaveChangesAsync();
+
+        return true;
+
     }
 }

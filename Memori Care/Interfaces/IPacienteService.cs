@@ -7,5 +7,7 @@ public interface IPacienteService
 {
     Task<IEnumerable<PacienteReadDTO>> GetTodos();
     Task<PacienteReadDTO> GetPorId(int id);
-    Task<PacienteReadDTO> Criar(PacienteCreateDto pacienteDto);
+    Task<PacienteReadDTO> Criar(PacienteCreateDTO pacienteDto);
+    Task<bool> AtivarObito(int id, DateTime dataDigitada);
+    Task<bool> RemoverObito(int id);
 }

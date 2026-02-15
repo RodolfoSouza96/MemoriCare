@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "pacienteDto",
-        "Type": "Memori_Care.DTOs.PacienteCreateDto",
+        "Type": "Memori_Care.DTOs.PacienteCreateDTO",
         "IsRequired": true
       }
     ],
@@ -41,5 +41,138 @@
     ],
     "ReturnTypes": [],
     "EndpointName": "ObterPaciente"
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.PacientesController",
+    "Method": "AtivarObito",
+    "RelativePath": "api/v1/Pacientes/{id}/ativar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dataSugerida",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.PacientesController",
+    "Method": "RemoverObito",
+    "RelativePath": "api/v1/Pacientes/{id}/remover-obito",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.ProfissionaisController",
+    "Method": "Criar",
+    "RelativePath": "api/v1/Profissionais",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profissionalDto",
+        "Type": "Memori_Care.DTOs.ProfissionalCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.ProfissionaisController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Profissionais",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.ProfissionaisController",
+    "Method": "GetPorId",
+    "RelativePath": "api/v1/Profissionais/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ObterProfissional"
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.ProfissionaisController",
+    "Method": "Atualizar",
+    "RelativePath": "api/v1/Profissionais/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "profissionalUpdateDTO",
+        "Type": "Memori_Care.DTOs.ProfissionalUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.ProfissionaisController",
+    "Method": "Inativar",
+    "RelativePath": "api/v1/Profissionais/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Memori_Care.Controllers.ProfissionaisController",
+    "Method": "Ativar",
+    "RelativePath": "api/v1/Profissionais/{id}/ativar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

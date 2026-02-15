@@ -4,8 +4,9 @@ using System.Text.Json.Serialization;
 
 namespace Memori_Care.DTOs;
 
-public class PacienteCreateDTO
+public class PacienteUpdateDTO
 {
+
     [Required(ErrorMessage = "O campo 'Nome' é obrigatório!")]
     [StringLength(255, MinimumLength = 2, ErrorMessage = "O nome deve ter entre 2 e 255 caracteres.")]
     public string Nome { get; set; }

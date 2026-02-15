@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "E:\\AulasC#\\Memori Care\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19126F34-68B9-49F4-A390-CE0AC4B71DB1}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19126F34-68B9-49F4-A390-CE0AC4B71DB1}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\dtos\\pacientereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\dtos\\pacientereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19126F34-68B9-49F4-A390-CE0AC4B71DB1}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\interfaces\\ipacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19126F34-68B9-49F4-A390-CE0AC4B71DB1}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\interfaces\\ipacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\services\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\dtos\\pacienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\dtos\\pacienteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\dtos\\pacientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\dtos\\pacientecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\dtos\\profissionalupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\dtos\\profissionalupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\dtos\\profissionalcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\dtos\\profissionalcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\utils\\dateconverterbrasileiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\utils\\dateconverterbrasileiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\models\\atendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\models\\atendimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\models\\profissional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\models\\profissional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\dtos\\profissionalreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\dtos\\profissionalreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\interfaces\\ipacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\interfaces\\ipacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|e:\\aulasc#\\memori care\\memori care\\migrations\\20260215122028_dataobitopaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4A8EA9D-456A-8760-CC42-AC1800D21009}|Memori Care\\Memori Care.csproj|solutionrelative:memori care\\migrations\\20260215122028_dataobitopaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +73,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 294,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 333,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,29 +82,206 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Models\\Pessoa.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Models\\Pessoa.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Models\\Pessoa.cs",
+              "RelativeToolTip": "Memori Care\\Models\\Pessoa.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T14:13:10.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacienteCreateDTO.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\PacienteCreateDTO.cs",
+              "RelativeDocumentMoniker": "Memori Care\\DTOs\\PacienteCreateDTO.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\PacienteCreateDTO.cs",
+              "RelativeToolTip": "Memori Care\\DTOs\\PacienteCreateDTO.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:18:06.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IPacienteService.cs",
               "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Interfaces\\IPacienteService.cs",
               "RelativeDocumentMoniker": "Memori Care\\Interfaces\\IPacienteService.cs",
               "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Interfaces\\IPacienteService.cs",
               "RelativeToolTip": "Memori Care\\Interfaces\\IPacienteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T22:15:12.638Z",
+              "WhenOpened": "2026-02-15T12:16:15.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PacienteUpdateDTO.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\PacienteUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Memori Care\\DTOs\\PacienteUpdateDTO.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\PacienteUpdateDTO.cs",
+              "RelativeToolTip": "Memori Care\\DTOs\\PacienteUpdateDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:18:28.301Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "ProfissionalCreateDTO.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\ProfissionalCreateDTO.cs",
+              "RelativeDocumentMoniker": "Memori Care\\DTOs\\ProfissionalCreateDTO.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\ProfissionalCreateDTO.cs",
+              "RelativeToolTip": "Memori Care\\DTOs\\ProfissionalCreateDTO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:18:07.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfissionalUpdateDTO.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\ProfissionalUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Memori Care\\DTOs\\ProfissionalUpdateDTO.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\ProfissionalUpdateDTO.cs",
+              "RelativeToolTip": "Memori Care\\DTOs\\ProfissionalUpdateDTO.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:25:03.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PacienteService.cs",
               "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Services\\PacienteService.cs",
               "RelativeDocumentMoniker": "Memori Care\\Services\\PacienteService.cs",
               "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Services\\PacienteService.cs",
               "RelativeToolTip": "Memori Care\\Services\\PacienteService.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAuwD0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAnwDkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-14T22:12:51.649Z",
+              "WhenOpened": "2026-02-15T12:04:20.005Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacienteReadDTO.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\PacienteReadDTO.cs",
+              "RelativeDocumentMoniker": "Memori Care\\DTOs\\PacienteReadDTO.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\PacienteReadDTO.cs",
+              "RelativeToolTip": "Memori Care\\DTOs\\PacienteReadDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wBUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:19:30.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Models\\Paciente.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Models\\Paciente.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Models\\Paciente.cs",
+              "RelativeToolTip": "Memori Care\\Models\\Paciente.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T14:13:15.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DateConverterbrasileiro.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Utils\\DateConverterbrasileiro.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Utils\\DateConverterbrasileiro.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Utils\\DateConverterbrasileiro.cs",
+              "RelativeToolTip": "Memori Care\\Utils\\DateConverterbrasileiro.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T14:39:44.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Atendimento.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Models\\Atendimento.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Models\\Atendimento.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Models\\Atendimento.cs",
+              "RelativeToolTip": "Memori Care\\Models\\Atendimento.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T14:07:10.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Profissional.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Models\\Profissional.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Models\\Profissional.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Models\\Profissional.cs",
+              "RelativeToolTip": "Memori Care\\Models\\Profissional.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T14:13:16.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProfissionalReadDTO.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\ProfissionalReadDTO.cs",
+              "RelativeDocumentMoniker": "Memori Care\\DTOs\\ProfissionalReadDTO.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\DTOs\\ProfissionalReadDTO.cs",
+              "RelativeToolTip": "Memori Care\\DTOs\\ProfissionalReadDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:25:20.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260215122028_DataObitoPaciente.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Migrations\\20260215122028_DataObitoPaciente.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Migrations\\20260215122028_DataObitoPaciente.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Migrations\\20260215122028_DataObitoPaciente.cs",
+              "RelativeToolTip": "Memori Care\\Migrations\\20260215122028_DataObitoPaciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:20:28.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PacientesController.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Controllers\\PacientesController.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Controllers\\PacientesController.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Controllers\\PacientesController.cs",
+              "RelativeToolTip": "Memori Care\\Controllers\\PacientesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:10:04.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\AulasC#\\Memori Care\\Memori Care\\Program.cs",
+              "RelativeDocumentMoniker": "Memori Care\\Program.cs",
+              "ToolTip": "E:\\AulasC#\\Memori Care\\Memori Care\\Program.cs",
+              "RelativeToolTip": "Memori Care\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T12:18:42.525Z"
             }
           ]
         }
